@@ -19,10 +19,8 @@ int main(int argc, char**argv)
 {
     cout<<"\nBanking Application.\n";
     cout<<"\nWelcome to the Bank ATM service.";
-    cout<<"\nPlease enter your username and password to enter the  
-    system.\n";
-    cout<<"Your username and password should be maximum 10 characters 
-    long.\n";
+    cout<<"\nPlease enter your username and password to enter the system.\n";
+    cout<<"Your username and password should be maximum 10 characters long.\n";
     while(true)
     {
           int authentication(0);
@@ -38,13 +36,11 @@ int main(int argc, char**argv)
           }
           if(authentication)
           {
-            printf("Access granted \n You can access your account 
-            now.");
+            printf("Access granted \n You can access your account now.");
           } 
           else 
           {
-            printf("Wrong username or password please enter the username 
-            again.\n");
+            printf("Wrong username or password please enter the username again.\n");
           }
     }
     return 0;
